@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { sveltepress } from '@sveltepress/vite';
 import { defaultTheme } from '@sveltepress/theme-default';
 import sidebar from './config/sidebar';
+import navbar from './config/navbar';
 
 const config = defineConfig({
   server: {
@@ -12,9 +13,7 @@ const config = defineConfig({
   plugins: [
     sveltepress({
       theme: defaultTheme({
-        navbar: [
-          // Add your navbar configs here
-        ],
+        navbar,
         sidebar,
         logo: '/sveltepress.svg',
       }),

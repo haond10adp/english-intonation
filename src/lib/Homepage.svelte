@@ -15,9 +15,11 @@
 </script>
 
 <div class="wrapper">
+  <span class="anchor" id="top" />
+
   <h2>Table of contents</h2>
 
-  <h3>{chapter1[0].title}</h3>
+  <h3 id="introduction">{chapter1[0].title}</h3>
   <div class="column-layout">
     {#each chapter1[0].items as unit}
       <p>
@@ -30,7 +32,7 @@
     {/each}
   </div>
 
-  <h3>{chapter2[0].title}</h3>
+  <h3 id="tone">{chapter2[0].title}</h3>
   {#each chapter2content as group}
     <h4>{group.title}</h4>
     <div class="column-layout">
@@ -46,7 +48,7 @@
     </div>
   {/each}
 
-  <h3>{chapter3[0].title}</h3>
+  <h3 id="tonicity">{chapter3[0].title}</h3>
   {#each chapter3content as group}
     <h4>{group.title}</h4>
     <div class="column-layout">
@@ -62,7 +64,7 @@
     </div>
   {/each}
 
-  <h3>{chapter4[0].title}</h3>
+  <h3 id="tonality">{chapter4[0].title}</h3>
   <div class="column-layout">
     {#each chapter4[0].items as unit}
       <p>
@@ -75,7 +77,7 @@
     {/each}
   </div>
 
-  <h3>{chapter5[0].title}</h3>
+  <h3 id="beyond">{chapter5[0].title}</h3>
   {#each chapter5content as group}
     <h4>{group.title}</h4>
     <div class="column-layout">
@@ -91,7 +93,7 @@
     </div>
   {/each}
 
-  <h3>{chapter6[0].title}</h3>
+  <h3 id="sum">{chapter6[0].title}</h3>
   <div class="column-layout">
     {#each chapter6[0].items as unit}
       <p>
@@ -121,6 +123,7 @@
 
   h3 {
     margin-top: 2em;
+    scroll-margin-top: 6em;
   }
 
   h4 {
@@ -135,10 +138,6 @@
 
   a:hover {
     text-decoration: underline;
-  }
-
-  a:visited {
-    color: red;
   }
 
   footer {

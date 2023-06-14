@@ -216,7 +216,7 @@ export default {
   ],
   '/chapter3/': [
     {
-      title: '3. Where does the nucleus go?',
+      title: '3. Tonicity: Where does the nucleus go?',
       items: [],
     },
     {
@@ -446,7 +446,7 @@ export default {
   ],
   '/chapter4/': [
     {
-      title: '4. Chunking, or division into IPs',
+      title: '4. Tonality: Chunking, or division into IPs',
       items: [
         {
           title: 'Signaling the structure',
