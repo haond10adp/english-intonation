@@ -13,15 +13,15 @@ English has nothing like these prosodic characteristics of Thai, Mandarin, Zulu,
 
 We can say any English word with any of the intonational 'tones' identified in this book, but the choice of tone does not alter the lexical identity of the word. Whichever we say of
 <AudioWrapper>
-<Audio url='/audio/1-3.mp3' sentence='\chair' start=1 end=3 nuclei="{['chair']}" />
-<Audio url='/audio/1-3.mp3' sentence='/chair' start=3 end=4 nuclei="{['chair']}" />
-<Audio url='/audio/1-3.mp3' sentence='\/chair' start=4 end=6 nuclei="{['chair']}" />
+<Audio url='1-3' sentence='\chair' start=1 end=3 nuclei="{['chair']}" />
+<Audio url='1-3' sentence='/chair' start=3 end=4 nuclei="{['chair']}" />
+<Audio url='1-3' sentence='\/chair' start=4 end=6 nuclei="{['chair']}" />
 </AudioWrapper>
 the lexical meaning (= the meaning as shown in a dictionary) is still the same. The non-lexical meaning is different, as discussed in chapter 2, where we see that a fall may indicate definiteness, a rise may indicate indicate incompleteness, and a fall-rise may indicate implications. But these intonational meanings apply equally to any other word:
 <AudioWrapper>
-<Audio url='/audio/1-3.mp3' sentence='\monkey' start=6 end=8 nuclei="{['mon']}" />
-<Audio url='/audio/1-3.mp3' sentence='/monkey' start=8 end=10 nuclei="{['mon']}" />
-<Audio url='/audio/1-3.mp3' sentence='\/monkey' start=10 end=12 nuclei="{['mon']}" />
+<Audio url='1-3' sentence='\monkey' start=6 end=8 nuclei="{['mon']}" />
+<Audio url='1-3' sentence='/monkey' start=8 end=10 nuclei="{['mon']}" />
+<Audio url='1-3' sentence='\/monkey' start=10 end=12 nuclei="{['mon']}" />
 </AudioWrapper>
 or, more usually, to a clause, sentence, or sentence fragment.
 

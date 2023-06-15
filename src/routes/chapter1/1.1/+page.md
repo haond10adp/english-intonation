@@ -2,6 +2,11 @@
 title: What is intonation?
 ---
 
+<script>
+  import Audio from '$lib/Audio.svelte'
+  import AudioWrapper from '$lib/AudioWrapper.svelte'
+</script>
+
 ## A
 
 Intonation is the melody of speech. In studying intonation we study how the pitch of the voice rises and falls, and how speakers use this pitch variation to convey linguistic and pragmatic meaning. It also involves the study of the rhythm of speech, and (in English at any rate) the study of how the interplay of accented, stressed and unstressed syllables functions as framework onto which the intonation patterns are attached.
@@ -28,16 +33,11 @@ The intonation symbols used in this book are explained in the [appendix A1](/app
 
 ## Exercises
 
-<script>
-  import Audio from '$lib/Audio.svelte'
-  import AudioWrapper from '$lib/AudioWrapper.svelte'
-</script>
-
 ### E1.1.1
 
 Listen to the following sentences spoken (i) normally and (ii) strictly on a monotone (= the pitch of the voice stays level, not going up and not going down). Repeat them aloud in the same way.
 <AudioWrapper>
-<Audio url='/audio/1-1-1.mp3' sentence="(i) I 'can't \stand it." start=3 end=6 nuclei="{['stand']}" />
-<Audio url='/audio/1-1-1.mp3' sentence="(ii) I can't stand it." start=20 end=22/>
-<Audio url='/audio/1-1-1.mp3' sentence="'What do I do \now?" start=6 end=9 nuclei="{['now']}" />
+<Audio url='1-1-1' sentence="(i) I 'can't \stand it." start=3 end=6 nuclei="{['stand']}" />
+<Audio url='1-1-1' sentence="(ii) I can't stand it." start=20 end=22/>
+<Audio url='1-1-1' sentence="'What do I do \now?" start=6 end=9 nuclei="{['now']}" />
 </AudioWrapper>

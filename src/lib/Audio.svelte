@@ -40,7 +40,7 @@
 <figure>
   <audio
     controls
-    src={url + '#t=' + start + ',' + end}
+    src={`/audio/${url}.mp3` + '#t=' + start + ',' + end}
     bind:this={audio}
     hidden
   />
