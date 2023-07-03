@@ -39,12 +39,16 @@ Listen to the following sentences spoken (i) normally and (ii) strictly on a mon
 <AudioWrapper>
 <Audio url='1-1-1' sentence="(i) I *can't \stand it." start=3 end=6 nuclei="{['stand']}" />
 <Audio url='1-1-1' sentence="(ii) I can't stand it." start=20 end=22/>
+<br>
 <Audio url='1-1-1' sentence="(i) *What do I do \now?" start=6 end=9 nuclei="{['now']}" />
 <Audio url='1-1-1' sentence="(ii) What do I do now?" start=22 end=25 />
+<br>
 <Audio url='1-1-1' sentence="(i) O /Lord, | *open thou our \lips!" start=9 end=13 nuclei="{['Lord', 'lips']}" />
 <Audio url='1-1-1' sentence="(ii) O Lord, open thou our lips!" start=25 end=28 />
+<br>
 <Audio url='1-1-1' sentence="(i) Are you *ready to /answer?" start=13 end=16 nuclei="{['answer']}" />
 <Audio url='1-1-1' sentence="(ii) Are you ready to answer?" start=28 end=31 />
+<br>
 <Audio url='1-1-1' sentence="(i) *Silly old \fool" start=17 end=19 nuclei="{['fool']}" />
 <Audio url='1-1-1' sentence="(ii) Silly old fool" start=31 end=34 />
 </AudioWrapper>

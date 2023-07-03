@@ -18,5 +18,5 @@ Depending on the learner's L1, there may indeed be many other, non-universal ele
 
 :::important[Languages that make little or no use of tonicity]
 Naturally, speakers of languages that make little or no use of tonicity are likely to make many inappropriate tonicity choices in English. Typically, they tend to accent the last word in an intonation phrase, even in cases where L1 speakers of English would not do so. On occasions, this can make such a speaker sound bizarre or absurd to the listener, since it sends out the wrong signals about where the new information in the message ends, or about what is in focus and what is not.
-<Naudio sentence="e.g. <br> - English: In most 'cases | *standards have greatly im'proved. <br> - French: Dans la plupart des 'cas | ...<br> - French English: In most 'cases. <br>" nuclei="{['cases', 'proved', 'cas', 'cases']}" />
+<Naudio sentence="e.g. <br> - English: In \/most cases | *standards have greatly im\proved. <br> - French: Dans la plupart des \cas | ...<br> - French English: In most \cases. <br>" nuclei="{['most', 'proved', 'cas']}" />
 :::
