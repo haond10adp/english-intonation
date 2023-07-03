@@ -7,8 +7,16 @@
   export let nuclei: string[] = [];
   export let sentence = 'default figcaption';
 
+  sentence = sentence.replaceAll('/', '⤴');
+  sentence = sentence.replaceAll('\\', '⤵');
+  sentence = sentence.replaceAll('??', '〉');
+  sentence = sentence.replaceAll('-', '》');
+
+  sentence = sentence.replaceAll('*', '<sup>▸</sup>');
+
   for (const nucleus of nuclei) {
-    sentence = sentence.replace(nucleus, `<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(`⤵${nucleus}`, `⤵<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(`⤴${nucleus}`, `⤴<u>${nucleus}</u>`);
   }
 
   let audio: HTMLAudioElement;
@@ -47,7 +55,8 @@
   <figcaption bind:this={figcaption}>
     <!-- svelte-ignore a11y-invalid-attribute -->
     <a href="" on:click|preventDefault={() => audio.play()}>
-      <span>{icon}</span>{@html sentence}
+      <span>{icon}</span>
+      <div>{@html sentence}</div>
     </a>
   </figcaption>
 </figure>
@@ -56,10 +65,10 @@
   figure {
     display: block;
     margin: 0;
-    margin-left: -2em;
+    text-indent: 0;
   }
   a {
-    display: block;
+    display: flex;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     padding: 0.4em 0;

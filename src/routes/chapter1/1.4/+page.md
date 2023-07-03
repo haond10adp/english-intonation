@@ -14,7 +14,7 @@ As concerns intonation, speakers of English repeatedly face three types of decis
 
 **Tonality**. The first matter a speaker has to decide is the division of the spoken material into chunks. There will be an intonation pattern associated with each chunk. These chunks are know as **intonation phrases** or or **IPs**. Each IP in an utterance has its own intonation pattern (or 'tune'). (Various authors use various other names for the IP, including 'word group', 'tone group', and 'intonation group). In general, we make each clause into a separate IP. (The symbols | and || represent the boundaries between IPs.)
 
-<Naudio>Because I love languages | I'm studying intonation. || When I've finished this book, | I'll know a lot about it.</Naudio>
+<Naudio sentence="Because I love languages | I'm studying intonation. || When I've finished this book, | I'll know a lot about it."></Naudio>
 
 However, the speaker does not inevitably have to follow the rule of an IP for each clause. There are many cases where different kinds of chunking are possible. For example, if a speaker wants to say _We don't know who she is_, it is possible to say the whole utterance as a single IP (= one intonation pattern):
 <AudioWrapper>
@@ -47,8 +47,8 @@ At this point we need to consider the anatomy of the IP as a whole. The part of 
 </AudioWrapper>
 If an IP contains an accent in the part before the nucleus, the first (or only) such accent is called the **onset**. The part extending from the onset to the last syllable before the nucleus is called the **head**:
 <AudioWrapper>
-<Audio url="1-4" sentence="It was re'markably \good." nuclei="{['good']}" start=38 end=43 />
-<Audio url="1-4" sentence="It was re'markably \/good." nuclei="{['good']}" start=43 end=48 />
+<Audio url="1-4" sentence="It was re*markably \good." nuclei="{['good']}" start=38 end=43 />
+<Audio url="1-4" sentence="It was re*markably \/good." nuclei="{['good']}" start=43 end=48 />
 </AudioWrapper>
 In this example the onset is the syllable _-mark-_. There is a pitch change there, making the syllable stand out. In this way, the syllable and therefore the word _remarkably_, are accented. The syllables _-markably-_ constitute the head.
 
@@ -62,16 +62,16 @@ Although every IP contains a nucleus, not all IPs contain a prehead, a head or a
 
 For most utterances, the speaker can select from a wide range of possible intonation patterns. Depending on the circumstances and the meaning, the nucleus can be put in various places. For example, the statement _We're planning to fly to Italy_ could be said as:
 <AudioWrapper>
-<Audio url="1-4" sentence="We're 'planning to fly to 'Italy." nuclei="{['I']}" start=49 end=52 />
+<Audio url="1-4" sentence="We're *planning to fly to 'Italy." nuclei="{['I']}" start=49 end=52 />
 </AudioWrapper>
 
 Here, the nucleus is _It-_ and the tail is _-aly_. The onset is _plan-_, and the head is _planning to fly to_. The prehead is _We're_.
 
 However, the same statement could also be said in any of the following ways, depending on the circumstances under which it it uttered. (The underlining shows the location of the nucleus. The mark ' shows the accented syllables.)
 <AudioWrapper>
-<Audio url="1-4" sentence="We're 'planning to 'fly to Italy." nuclei="{['fly']}" start=53 end=56 />
-<Audio url="1-4" sentence="We're 'planning to fly to Italy." nuclei="{['plan']}" start=56 end=59 />
-<Audio url="1-4" sentence="'We're planning to fly to Italy." nuclei="{['We']}" start=59 end=62 />
+<Audio url="1-4" sentence="We're planning to *fly to Italy." nuclei="{['fly']}" start=53 end=56 />
+<Audio url="1-4" sentence="We're *planning to fly to Italy." nuclei="{['plan']}" start=56 end=59 />
+<Audio url="1-4" sentence="*We're planning to fly to Italy." nuclei="{['We']}" start=59 end=62 />
 </AudioWrapper>
 The question of **tonicity** (or **nucleus placement**) is the topic of chapter 3.
 
@@ -83,15 +83,15 @@ For example, a speaker wanting to say _You mustn't worry_ can choose between sev
 <br>
 (fall)
 <AudioWrapper>
-<Audio url="1-4" sentence="You 'mustn't \worry" nuclei="{['wor']}" start=62 end=64 />
+<Audio url="1-4" sentence="You *mustn't \worry" nuclei="{['wor']}" start=62 end=64 />
 (rise)
 </AudioWrapper>
 <AudioWrapper>
-<Audio url="1-4" sentence="You 'mustn't /worry" nuclei="{['wor']}" start=66 end=68 />
+<Audio url="1-4" sentence="You *mustn't /worry" nuclei="{['wor']}" start=66 end=68 />
 </AudioWrapper>
 (fall-rise)
 <AudioWrapper>
-<Audio url="1-4" sentence="You 'mustn't \/worry" nuclei="{['wor']}" start=69 end=71 />
+<Audio url="1-4" sentence="You *mustn't \/worry" nuclei="{['wor']}" start=69 end=71 />
 </AudioWrapper>
 
 The basic choice between fall, rise and fall-rise is discussed in chapter 2. In general, a fall tends to indicate that the information conveyed is, or could be, complete, whereas a rise or a fall-rise tends to indicate that there is something more to come (either from the same speaker, or from a different speaker). The default tone (= the tone used if there are no special circumstances) for statements, exclamations, commands and wh questions is a fall, but for yes-no question it is a rise. A fall-rise often signals particular implications.
