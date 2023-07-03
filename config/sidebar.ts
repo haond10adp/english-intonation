@@ -172,12 +172,12 @@ export default {
         },
         {
           title: 'Topic and comment',
-          unitNumber: '2.2',
+          unitNumber: '2.21',
           to: '/chapter2/2.21/',
         },
         {
           title: 'Open and closed lists',
-          unitNumber: '2.2',
+          unitNumber: '2.22',
           to: '/chapter2/2.22/',
         },
         {
