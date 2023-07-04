@@ -2,16 +2,15 @@
   export let nuclei: string[] = [];
   export let sentence = 'default figcaption';
 
-  sentence = sentence.replaceAll('/', '⤴');
-  sentence = sentence.replaceAll('\\', '⤵');
   sentence = sentence.replaceAll('??', '〉');
   sentence = sentence.replaceAll('-', '》');
 
   sentence = sentence.replaceAll('*', '<sup>▸</sup>');
 
   for (const nucleus of nuclei) {
-    sentence = sentence.replaceAll(`⤵${nucleus}`, `⤵<u>${nucleus}</u>`);
-    sentence = sentence.replaceAll(`⤴${nucleus}`, `⤴<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(`\\/${nucleus}`, `⤵⤴<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(`\\${nucleus}`, `⤵<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(`/${nucleus}`, `⤴<u>${nucleus}</u>`);
   }
 </script>
 

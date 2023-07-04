@@ -16,7 +16,7 @@ Sometimes statements are said with a tone other than a fall - namely, with a ris
 
 The rise or fall-rise thus indicates that the clause, phrase or word that bears it is part of a larger structure. We analyze this tone meaning in sections 2.20-5 (sequences of tones. [Link to 2.20](2.20)).
 
-## A
+## The implicational fall-rise
 
 But what about non-fall tones on statements that are complete in themselves, i.e. **independent** non-falls? We analyze these tone meanings in the sections that follow now.
 
@@ -27,7 +27,7 @@ By making a statement with the fall-rise, the speaker typically states one thing
 <Audio sentence="?? Who's that? <br> - Well I *know her \/face." nuclei="{['face']}" url="2-6" start=12 end=16 />
 </AudioWrapper>
 
-## B
+## Imply a contrast
 
 The fall-rise implies something further: a **contrast** between what is expressed and what has not, or not yet, been expressed. In this case it might be:
 <Naudio sentence="- Well I *know her \/face. | but I *can't remember her \name." nuclei="{['face', 'name']}" />
@@ -40,7 +40,7 @@ More than one implication may be possible:
 <Audio sentence="?? Can we fix an appointment? <br> - I could *see you on \/Wednesday" nuclei="{['Wed']}" url="2-6" start=17 end=23 />
 </AudioWrapper>
 Making it explicit we might have:
-<Naudio sentence="- I could *see you on \Wednesday, | but *not on \Thursday. or <br> - I could *see you on \/Wednesday, | but *that might not suit \you." nuclei="{['Wed', 'Thurs', 'you']}" />
+<Naudio sentence="- I could *see you on \/Wednesday, | but *not on \Thursday. <em>or</em> <br> - I could *see you on \/Wednesday, | but *that might not suit \you." nuclei="{['Wed', 'Thurs', 'you']}" />
 Using a fall-rise but leaving the reservation unexpressed may lead the other speaker to pick up on the implication and ask for the reservation to be spelt out:
 <AudioWrapper>
 <Audio sentence="A: *What can we have for \tea? <br> B: Well we've *got some \/strawberries. <br> A: So *what's the \problem? <br> B: We *haven't got any \cream." nuclei="{['tea', 'straw', 'prob', 'cream']}" url="2-6" start=24 end=33 />
@@ -48,14 +48,14 @@ Using a fall-rise but leaving the reservation unexpressed may lead the other spe
 
 <Naudio sentence="A: *What d'you think of \Hubert? <br> B: He's *very me\/ticulous. <br> A: /But...? <br> B: *Utterly \boring." nuclei="{['Hub', 'tic', 'But', 'bor']}" />
 The American gun lobby has a slogan: 
-<Naudio sentence="\/Guns don't kill people, | \/people kill people" nuclei="{['Guns', 'peo']}" />
+<Naudio sentence="\/Guns don't kill people, | \people kill people" nuclei="{['Guns', 'peo']}" />
 
 -- where there is an explicit contrast between _guns_ and _people_ (as the subject of _kill_). The idea could be expressed more subtly (but still as tendentiously) by saying just:
 <Naudio sentence="\/Guns don't kill people." nuclei="{['Guns']}" />
 
 -- leaving it to the fall-rise to imply the corollary without expressing it.
 
-## C
+## Imply reservations
 
 A speaker who uses a fall-rise has **reservations** about what is said. The speaker's statement may be true under some conditions, _but_ not under others. Again, the reservation may or may not be made explicit. In the following examples it is given in parentheses: the words in parentheses might or might not be spoken aloud.
 <AudioWrapper>
