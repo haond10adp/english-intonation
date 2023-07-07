@@ -14,7 +14,7 @@ In a falling nuclear tone the pitch of the voice starts relatively high and then
 
 In the simplest cases the fall takes place on a single syllable. We see this in cases where the nuclear syllable is the _only_ syllable in the IP, or where the nuclear is the _last_ syllable in the IP. The fall then happens on that syllable.
 <AudioWrapper>
-<Audio url="2-2" sentence="\Wow!" nuclei="{['wow']}" start=2 end=3 />
+<Audio url="2-2" sentence="\Wow!" nuclei="{['Wow']}" start=2 end=3 />
 <Audio url="2-2" sentence="It was \great!" nuclei="{['great']}" start=4 end=6 />
 </AudioWrapper>
 

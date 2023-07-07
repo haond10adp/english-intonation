@@ -13,9 +13,18 @@
   sentence = sentence.replaceAll('*', '<sup>▸</sup>');
 
   for (const nucleus of nuclei) {
-    sentence = sentence.replaceAll(`\\/${nucleus}`, `⤵⤴<u>${nucleus}</u>`);
-    sentence = sentence.replaceAll(`\\${nucleus}`, `⤵<u>${nucleus}</u>`);
-    sentence = sentence.replaceAll(`/${nucleus}`, `⤴<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(
+      `\\/${nucleus}`,
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+    );
+    sentence = sentence.replaceAll(
+      `\\${nucleus}`,
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+    );
+    sentence = sentence.replaceAll(
+      `/${nucleus}`,
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+    );
   }
 
   let audio: HTMLAudioElement;
@@ -70,7 +79,7 @@
     display: flex;
     font-size: large;
     padding: 0.4em 0;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto Mono', monospace;
   }
   a:hover {
     font-weight: bold;
@@ -85,5 +94,14 @@
     color: blue;
     color: transparent;
     text-shadow: 0 0 0 black;
+  }
+  @media (max-width: 500px) {
+    span {
+      margin-right: 1em;
+      width: 1em;
+      color: blue;
+      color: transparent;
+      text-shadow: 0 0 0 black;
+    }
   }
 </style>

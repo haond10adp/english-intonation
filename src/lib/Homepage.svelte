@@ -117,7 +117,7 @@
   }
 
   span {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 0.9em;
   }
 

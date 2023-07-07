@@ -8,9 +8,18 @@
   sentence = sentence.replaceAll('*', '<sup>▸</sup>');
 
   for (const nucleus of nuclei) {
-    sentence = sentence.replaceAll(`\\/${nucleus}`, `⤵⤴<u>${nucleus}</u>`);
-    sentence = sentence.replaceAll(`\\${nucleus}`, `⤵<u>${nucleus}</u>`);
-    sentence = sentence.replaceAll(`/${nucleus}`, `⤴<u>${nucleus}</u>`);
+    sentence = sentence.replaceAll(
+      `\\/${nucleus}`,
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+    );
+    sentence = sentence.replaceAll(
+      `\\${nucleus}`,
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+    );
+    sentence = sentence.replaceAll(
+      `/${nucleus}`,
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+    );
   }
 </script>
 
@@ -26,6 +35,6 @@
     border-left: 0.4em solid black;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto Mono', monospace;
   }
 </style>
