@@ -117,7 +117,8 @@
   }
 
   span {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9em;
   }
 
   h3 {

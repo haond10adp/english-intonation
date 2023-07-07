@@ -26,7 +26,6 @@
     border-left: 0.4em solid black;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: larger;
+    font-family: 'Fira Code', monospace;
   }
 </style>

@@ -70,8 +70,7 @@
     display: flex;
     font-size: large;
     padding: 0.4em 0;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: larger;
+    font-family: 'Fira Code', monospace;
   }
   a:hover {
     font-weight: bold;
