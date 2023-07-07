@@ -19,11 +19,11 @@
     );
     sentence = sentence.replaceAll(
       `\\${nucleus}`,
-      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵</span><u>${nucleus}</u>`
     );
     sentence = sentence.replaceAll(
       `/${nucleus}`,
-      `<span style="font-family: 'Noto Sans JP', sans-serif">⤵⤴</span><u>${nucleus}</u>`
+      `<span style="font-family: 'Noto Sans JP', sans-serif">⤴</span><u>${nucleus}</u>`
     );
   }
 
