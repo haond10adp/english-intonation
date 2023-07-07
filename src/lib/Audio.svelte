@@ -70,7 +70,8 @@
     display: flex;
     font-size: large;
     padding: 0.4em 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: larger;
   }
   a:hover {
     font-weight: bold;

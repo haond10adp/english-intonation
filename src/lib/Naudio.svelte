@@ -26,6 +26,7 @@
     border-left: 0.4em solid black;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: larger;
   }
 </style>

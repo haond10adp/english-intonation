@@ -117,8 +117,7 @@
   }
 
   span {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.9em;
+    font-family: 'Ubuntu Mono', monospace;
   }
 
   h3 {
