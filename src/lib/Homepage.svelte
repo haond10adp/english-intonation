@@ -117,7 +117,7 @@
   }
 
   span {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 0.9em;
   }
 

@@ -69,8 +69,8 @@
   a {
     display: flex;
     font-size: large;
-    font-family: 'Courier New', Courier, monospace;
     padding: 0.4em 0;
+    font-family: 'Roboto Mono', monospace;
   }
   a:hover {
     font-weight: bold;

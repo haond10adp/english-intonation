@@ -26,6 +26,6 @@
     border-left: 0.4em solid black;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
   }
 </style>
