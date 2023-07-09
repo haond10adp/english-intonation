@@ -97,7 +97,7 @@ A vocative after _hello_ or _hi_ usually has its own rising tone (see [4.4](/cha
   nuclei="{['Hi', 'Kev', 'lo', 'Mar', 'Tim', 'Hul', 'Hel']}" 
 />
 One or wo greetings are tonally restricted. Whereas _hello_ may have any tone,
-_hi_ (if said with an ordinary tone, not stylized one; see [5.15](chapter5/5.15)) can only have a fall. The same is true of _hey_. Likewise _cheers_, in its British sense of 'thank you', always has a fall:
+_hi_ (if said with an ordinary tone, not stylized one; see [5.15](/chapter5/5.15)) can only have a fall. The same is true of _hey_. Likewise _cheers_, in its British sense of 'thank you', always has a fall:
 <Naudio
   sentence="\Hi! <br>
   \Hi, Julia. <br>
