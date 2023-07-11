@@ -101,7 +101,7 @@ _hi_ (if said with an ordinary tone, not stylized one; see [5.15](/chapter5/5.15
 <Naudio
   sentence="\Hi! <br>
   \Hi, Julia. <br>
-  \Hi, | /Ashley. <br>
+  \Hi, | /Ashley. <br>/n/
   \Hey, | \you! || I want to \talk to you. <br>
   \Cheers, mate"
   nuclei="{['Hi', 'Ash', 'Hey', 'you', 'talk', 'Cheers']}" 
