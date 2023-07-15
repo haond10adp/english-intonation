@@ -30,7 +30,7 @@ or indeed to place both elements within a single IP (see [4.8](/chapter4/4.8)), 
 
 The use of tone concord is particularly likely where the utterance as a whole is not yet finished, as in (ii) and (iii).
 
-Tone concord can signal parallelism not onl between nouns or noun phrases but also between other parallel structures: between other parts of speech and indeed between complete clauses or sentences
+Tone concord can signal parallelism not only between nouns or noun phrases but also between other parallel structures: between other parts of speech and indeed between complete clauses or sentences
 <Naudio
   sentence="I re\ject it, | I de\spise it, | I won't ac\cept it. <br><br>
   *Jenifer's \better, | she's \well again. <br><br>
