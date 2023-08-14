@@ -26,26 +26,26 @@ title: 'Checklist of tone meanings'
 
 ## Non-fall (=fall-rise or rise)
 
-- **dependent** (includes open)
+- **Dependent** (includes open)
   - clause or smaller element [2.20](2.20), [2.21](2.21), [2.22](2.22)
-- **limiting**
+- **Limiting**
   - adverbial [2.23](2.23)
 
 ## Fall-rise
 
-- **implicational**(includes contrastive, reservation, tentative, polite correction, partial statement, negative, warning)
+- **Implicational**(includes contrastive, reservation, tentative, polite correction, partial statement, negative, warning)
   - statement [2.6](2.6), [2.7](2.7)
   - command [2.18](2.18)
 
 ## Rise
 
-- **encouraging** (includes soothing)
+- **Encouraging** (includes soothing)
   - statement[2.11](2.11)
   - wh question [2.12](2.12)
   - command [2.18](2.18)
-- **non-supportive**(includes truculent, perfunctory)
+- **Non-supportive**(includes truculent, perfunctory)
   - statement [2.10](2.10)
-- **yes-no** (includes pardon question, uptalk)
+- **Yes-no** (includes pardon question, uptalk)
   - yes-no question [2.13](2.13)
   - tag question [2.14](2.14)
   - indep. ellip. question [2.15](2.15)
