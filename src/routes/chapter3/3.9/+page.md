@@ -36,7 +36,7 @@ All five versions of the answer have narrow focus. The focus domain is just the 
   nuclei="{['Mary', 'wine']}" 
 />
 
-The nucleus tells us where the focus domain ends, and the onset may tell us where it begins (though not very reliably: see [5.11](/chatper5/5.11)). Consider these two possible 'turns' in a conversation:
+The nucleus tells us where the focus domain ends, and the onset may tell us where it begins (though not very reliably: see [5.11](/chapter5/5.11)). Consider these two possible 'turns' in a conversation:
 <Naudio
   sentence="(i) 'Tell me about her. <br>
   (ii) *What kind of 'car does she drive?"
