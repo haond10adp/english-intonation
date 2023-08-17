@@ -19,3 +19,10 @@ A particular kind of narrow focus is **contrastive focus**. Here the nuclear acc
   end=7
 />
 </AudioWrapper>
+
+In this example the contrast is between _started_ and _finished_. In such cases the repeated, non-contrastive material (here, the second _your essay_) is often replaced by a pronoun, or entirely omitted:
+
+<Naudio
+  sentence="You *may have \/started your essay, | but *have you \finished it? <br> You *may have \/started your essay, | but *have you \finished?"
+  nuclei="{['started', 'finished']}" 
+/>
