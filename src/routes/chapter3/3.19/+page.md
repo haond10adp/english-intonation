@@ -62,7 +62,7 @@ The too refers to the accented item that immediately precedes it:
   nuclei="{['Mar', 'too', 'vite', 'Pet']}" 
 />
 
-The sentence adverb _anyway_ and its synonym _anyhow_ are almost always nuclear. They are said with a reinforcing fall (see [2.23](2.23))
+The sentence adverb _anyway_ and its synonym _anyhow_ are almost always nuclear. They are said with a reinforcing fall (see [2.23](/chapter2/2.23))
 
 <Naudio
   sentence="This i'dea may not \/work, but let's *try it \anyway. <em>or</em>... but let's \try it, | \anyway. <br>
