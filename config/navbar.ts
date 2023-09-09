@@ -8,12 +8,12 @@ export default [
     to: '/#tone',
   },
   {
-    title: 'tonality',
-    to: '/#tonality',
-  },
-  {
     title: 'tonicity',
     to: '/#tonicity',
+  },
+  {
+    title: 'tonality',
+    to: '/#tonality',
   },
   {
     title: 'beyond',

@@ -418,7 +418,7 @@ export default {
         {
           title: "Reusing the other speaker's word",
           unitNumber: '3.31',
-          to: '/chapter3/3.25/',
+          to: '/chapter3/3.31/',
         },
         {
           title: 'Reusing your own words',
