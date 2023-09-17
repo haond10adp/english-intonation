@@ -76,7 +76,7 @@ Contrast the two tone meanings, definitive fall and encouraging rise:
   end=17
 />
 <Audio 
-  sentence="*What's your \name? (<em>encouraging, kindly</em>)" 
+  sentence="*What's your /name? (<em>encouraging, kindly</em>)" 
   nuclei="{['name']}" 
   url="2-12" 
   start=18
